@@ -1,0 +1,64 @@
+**Normalize  sirve para que los elementos funcione en diferentes navegadores,
+Debe ser la libreria que cargue primero.
+
+**Los Display son Inline y Block
+Block: uno debajo del otro 
+Inline: se posiciona a la derecha una vex tome todo el espacio que requiere
+
+**no es necesario definir un display por cada elemento
+
+*Que es Flex Box: el display flex se debe poner en el elemnto padre nos habilita 
+distribuir los elementos
+corre de izquierda a derecha o arriba hacia abajo
+puede ser row o column
+
+row es aplicado por default al definir un display flex
+Los otros valores son row row-reverse, column y colum-reverse
+
+row o row reverse se ponen de izquierda a derecha
+column o colum reverese se pone de arriba a abajo se parece a display Block
+Es especialmente disenado para alinear elementos en tus disenos
+
+
+media query standar
+480 telefono
+768 para tablet
+1140 lapto PC
+1400 laptop PC
+
+Box Model: El tamano de lo que se muestra en pantalla esta delimitado por 4 cosas
+tamano de contenido, tamano de relleno(padding), tamano del borde y margen
+
+https://www.paulirish.com/2012/box-sizing-border-box-ftw/ 
+
+para corregir que el tamano sea lo que nosotros deseamos
+
+
+
+**POsicion absoluta cuando queremos colocar un elemento en un lugar exacto
+**Posicion relativa
+
+El padre siempre tiene que tener posicion relativa para que el hijo se pueda posicionar de forma absoluta
+para que el padre funcione como nuestro mapa
+
+**Librerias CSS
+https://www.cssmatic.com/box-shadow  para sombrear
+https://caniuse.com/ //que es lo que puedo usar
+
+**CSS grid
+Te permite definir la ubicacion y tamano de los elementos de tu sitio web
+
+(en flex box el contenido crece automaticamente)
+(en grid el contenido se agrupa dentro de un area definida) se tiene acceso a las 2 dimesiones al mismo tiempo
+
+Que es mejor? algunos disenos son mas faciles en css grid que en flexbox 
+y viceversa
+Se pueden utilizar juntos en un mismo diseno
+
+
+En que casos flex y cuando grid
+**FlexBox: para la alineacion o distribucion de los elementos que estaran dentro de contenedores
+por ejemplo una barra de navegacion
+
+**Grid: para definir el layout de tu sitio web como pueden ser las columnas o contenedores de elementos
+
